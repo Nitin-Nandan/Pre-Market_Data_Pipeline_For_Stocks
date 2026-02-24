@@ -1,0 +1,8 @@
+stocks:
+  - PFOCUS
+  - BANKINDIA
+  - HINDZINC
+
+date_range:
+  start: "2025-02-16"
+  end: "2025-02-20"

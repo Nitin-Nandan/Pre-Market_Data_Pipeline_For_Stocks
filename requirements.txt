@@ -1,0 +1,10 @@
+yfinance
+yfinance-cache
+transformers
+torch
+requests
+pandas
+PyYAML
+python-dotenv
+mypy
+flake8
