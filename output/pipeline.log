@@ -1,0 +1,29 @@
+2026-02-25 02:50:27 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2025-02-16 to 2025-02-20
+2026-02-25 02:50:52 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2025-02-16 to 2025-02-20
+2026-02-25 02:51:51 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2025-02-16 to 2025-02-20
+2026-02-25 02:51:52 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2025-02-16 to 2025-02-20
+2026-02-25 02:53:41 | INFO     | market.fetch_fundamentals | Fetching fundamentals for BANKINDIA.NS
+2026-02-25 02:53:45 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for BANKINDIA.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:53:45 | INFO     | market.fetch_fundamentals | Fetching fundamentals for HINDZINC.NS
+2026-02-25 02:53:48 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for HINDZINC.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:53:48 | INFO     | market.fetch_fundamentals | Fetching fundamentals for PFOCUS.NS
+2026-02-25 02:53:56 | INFO     | market.fetch_fundamentals | Fetching fundamentals for BANKINDIA.NS
+2026-02-25 02:53:58 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for BANKINDIA.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:53:58 | INFO     | market.fetch_fundamentals | Fetching fundamentals for HINDZINC.NS
+2026-02-25 02:53:59 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for HINDZINC.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:53:59 | INFO     | market.fetch_fundamentals | Fetching fundamentals for PFOCUS.NS
+2026-02-25 02:54:19 | INFO     | market.fetch_fundamentals | Fetching fundamentals for BANKINDIA.NS
+2026-02-25 02:54:21 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for BANKINDIA.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:54:21 | INFO     | market.fetch_fundamentals | Fetching fundamentals for HINDZINC.NS
+2026-02-25 02:54:22 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for HINDZINC.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:54:22 | INFO     | market.fetch_fundamentals | Fetching fundamentals for PFOCUS.NS
+2026-02-25 02:54:24 | INFO     | market.fetch_fundamentals | Fetching fundamentals for BANKINDIA.NS
+2026-02-25 02:54:26 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for BANKINDIA.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:54:26 | INFO     | market.fetch_fundamentals | Fetching fundamentals for HINDZINC.NS
+2026-02-25 02:54:27 | ERROR    | market.fetch_fundamentals | Error fetching fundamentals for HINDZINC.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2026-02-25 02:54:27 | INFO     | market.fetch_fundamentals | Fetching fundamentals for PFOCUS.NS
+2026-02-25 03:00:52 | INFO     | market.fetch_fundamentals | Fetching fundamentals for BANKINDIA.NS
+2026-02-25 03:00:54 | INFO     | market.fetch_fundamentals | Fetching fundamentals for HINDZINC.NS
+2026-02-25 03:00:56 | INFO     | market.fetch_fundamentals | Fetching fundamentals for PFOCUS.NS
+2026-02-25 03:39:17 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2026-02-16 to 2026-02-20
+2026-02-25 03:39:20 | INFO     | market.fetch_ohlcv | Fetching OHLCV for BANKINDIA.NS from 2026-02-16 to 2026-02-20

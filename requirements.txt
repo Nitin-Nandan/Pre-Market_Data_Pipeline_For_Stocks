@@ -8,3 +8,4 @@ PyYAML
 python-dotenv
 mypy
 flake8
+lxml

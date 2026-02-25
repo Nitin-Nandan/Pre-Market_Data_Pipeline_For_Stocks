@@ -1,3 +1,14 @@
 # Folder containing PRD & TSD
 PRD_TSD/
+
+# API Keys
 .env
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temp Testing Data
+temp_tests/
