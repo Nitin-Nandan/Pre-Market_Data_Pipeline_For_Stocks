@@ -1,0 +1,211 @@
+{
+  "PFOCUS": {
+    "symbol": "PFOCUS.NS",
+    "long_name": "Prime Focus Limited",
+    "search_name": "Prime Focus",
+    "cutoff": "2026-02-24 04:06:43",
+    "query_a_name": {
+      "total_fetched": 0,
+      "relevant_in_window": 0,
+      "selected_headline": "NONE",
+      "articles": []
+    },
+    "query_b_ticker": {
+      "total_fetched": 0,
+      "relevant_in_window": 0,
+      "selected_headline": "NONE",
+      "articles": []
+    },
+    "pipeline_selected": "NONE"
+  },
+  "BANKINDIA": {
+    "symbol": "BANKINDIA.NS",
+    "long_name": "Bank of India Limited",
+    "search_name": "Bank of India",
+    "cutoff": "2026-02-24 04:06:43",
+    "query_a_name": {
+      "total_fetched": 10,
+      "relevant_in_window": 0,
+      "selected_headline": "NONE",
+      "articles": [
+        {
+          "title": "Noel Tata’s tough ask on IPO stalled vote on Chairman tenure",
+          "source": "economictimes_indiatimes",
+          "published_at": "2026-02-26 10:26:52",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/noel-tatas-tough-ask-on-ipo-stalled-vote-on-chairman-tenure/articleshow/128810379.cms",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Noel Tata’s tough ask on IPO stalled vote on chairman N Chandrasekaran's tenure",
+          "source": "moneycontrol",
+          "published_at": "2026-02-26 10:22:15",
+          "url": "https://www.moneycontrol.com/news/business/companies/noel-tata-s-tough-ask-on-ipo-stalled-vote-on-chairman-n-chandrasekaran-s-tenure-13844570.html",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Sensex ends muted, slips 46 pts to 82,230; Nifty steady above 25,490",
+          "source": "firstpost",
+          "published_at": "2026-02-26 10:14:21",
+          "url": "https://www.firstpost.com/business/sensex-ends-muted-slips-46-pts-to-82230-nifty-steady-above-25490-13984015.html",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "‘Secondary market for SGBs is no longer a tax haven’: CA flags important rule shift from April 1",
+          "source": "businesstoday",
+          "published_at": "2026-02-26 09:14:47",
+          "url": "https://www.businesstoday.in/personal-finance/investment/story/secondary-market-for-sgbs-is-no-longer-a-tax-haven-ca-flags-important-rule-shift-from-april-1-518131-2026-02-26",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "PSU banks better placed on loan-deposit metrics; microfinance cycle nearing normalisation, says Yuvraj Choudhary",
+          "source": "economictimes_indiatimes",
+          "published_at": "2026-02-26 08:46:07",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/psu-banks-better-placed-on-loan-deposit-metrics-microfinance-cycle-nearing-normalisation-says-yuvraj-choudhary/articleshow/128807790.cms",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Bank Nifty swings into red, slips 350 points from day's high as HDFC Bank, Axis Bank stocks drag",
+          "source": "moneycontrol",
+          "published_at": "2026-02-26 08:13:04",
+          "url": "https://www.moneycontrol.com/news/business/markets/bank-nifty-swings-into-red-slips-350-points-from-day-s-high-as-hdfc-bank-axis-bank-stocks-drag-13844381.html",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "NSE IPO: Leading exchange invites banker to lead $2.5 billion offering, reports",
+          "source": "businesstoday",
+          "published_at": "2026-02-26 08:05:53",
+          "url": "https://www.businesstoday.in/markets/ipo-corner/story/nse-ipo-leading-exchange-invites-banker-to-lead-25-billion-offering-reports-518104-2026-02-26",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "With new data sources and process upgrades, new GDP data set to capture the economy more accurately",
+          "source": "thehindu",
+          "published_at": "2026-02-26 07:46:12",
+          "url": "https://www.thehindu.com/business/Economy/india-new-gdp-data-set-sources-process-upgrades-economy-accuracy/article70678814.ece",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "AI, Equity Inflows And Forex Reserves: What’s Supporting The Rupee Now",
+          "source": "abplive",
+          "published_at": "2026-02-26 06:46:51",
+          "url": "https://news.abplive.com/business/indian-rupee-vs-dollar-ai-equity-inflows-forex-reserves-1828876",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "RBI's additional liquidity support to wind down after March, bankers say",
+          "source": "economictimes_indiatimes",
+          "published_at": "2026-02-26 06:44:07",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbis-additional-liquidity-support-to-wind-down-after-march-bankers-say/articleshow/128804820.cms",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        }
+      ]
+    },
+    "query_b_ticker": {
+      "total_fetched": 0,
+      "relevant_in_window": 0,
+      "selected_headline": "NONE",
+      "articles": []
+    },
+    "pipeline_selected": "NONE"
+  },
+  "HINDZINC": {
+    "symbol": "HINDZINC.NS",
+    "long_name": "Hindustan Zinc Limited",
+    "search_name": "Hindustan Zinc",
+    "cutoff": "2026-02-24 04:06:43",
+    "query_a_name": {
+      "total_fetched": 5,
+      "relevant_in_window": 2,
+      "selected_headline": "Vedanta, BPCL, Hindustan Zinc among high dividend-paying stocks delivering up to 70% returns in past one year - Upstox",
+      "articles": [
+        {
+          "title": "Metal stocks rise 7%, analysts see potential upside of up to 25%",
+          "source": "economictimes_indiatimes",
+          "published_at": "2026-02-26 00:13:29",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/metal-stocks-rise-7-analysts-see-potential-upside-of-up-to-25/articleshow/128798479.cms",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Vedanta, BPCL, Hindustan Zinc among high dividend-paying stocks delivering up to 70% returns in past one year - Upstox",
+          "source": "google",
+          "published_at": "2026-02-25 07:49:25",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQeXd4TTQ4aUluZ3ZVRm1mZlYxbDJxZDZQUEI0UlJNVm9TTVA3UlNQb1lfUDBDcnU1NVp4dVZuZ3hra1YyS1M1YWxlOVJROUJxTTVqYzdSVDJDQjFOQWhTUXVFcE5xY21xOXVtZ21MeE1UZVJpcnZ1UHBIaGRjckMtU2xYTGo3Q2VIYmVvemtFRnAyam9vb3hSTEEweXBYeWcxOW1RV0tHd2VtVjFLaV96ZzlOLXFmTWREVkxxM1l3Qk45Zi1sbHN3Uk5kUDR5SzJ3LVBRRW54MWFKOWpJOXZlc1VMZDFrNERVamxpT1F6cndOOGpPRDY1aTZ1THBUeEoybmJ3?oc=5",
+          "relevant_title": true,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": true
+        },
+        {
+          "title": "MCX, Hindustan Zinc share prices jump up to 3% today as silver gains; ETFs up over 1%",
+          "source": "moneycontrol",
+          "published_at": "2026-02-25 07:10:46",
+          "url": "https://www.moneycontrol.com/news/business/stocks/mcx-hind-zinc-share-prices-jump-up-to-3-today-as-silver-gains-etfs-up-over-1-13842712.html",
+          "relevant_title": true,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Vedanta shares rise 5% as BofA upgrades stock to Buy, raises target price by 75%. Here’s why",
+          "source": "economictimes_indiatimes",
+          "published_at": "2026-02-25 05:14:17",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-shares-rise-5-as-bofa-upgrades-stock-to-buy-raises-target-price-by-75-heres-why/articleshow/128770697.cms",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        },
+        {
+          "title": "Up 91% from 52-week low, Vedanta stock gets an upgrade from BoFA",
+          "source": "businesstoday",
+          "published_at": "2026-02-25 03:14:12",
+          "url": "https://www.businesstoday.in/markets/stocks/story/vedanta-stock-price-today-upgrade-from-bofa-price-target-raised-517838-2026-02-25",
+          "relevant_title": false,
+          "in_72hr_window": true,
+          "title_filter_applied": true,
+          "SELECTED": false
+        }
+      ]
+    },
+    "query_b_ticker": {
+      "total_fetched": 0,
+      "relevant_in_window": 0,
+      "selected_headline": "NONE",
+      "articles": []
+    },
+    "pipeline_selected": "Vedanta, BPCL, Hindustan Zinc among high dividend-paying stocks delivering up to 70% returns in past one year - Upstox"
+  }
+}

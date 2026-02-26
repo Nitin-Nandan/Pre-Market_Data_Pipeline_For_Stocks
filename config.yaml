@@ -3,6 +3,11 @@ stocks:
   - BANKINDIA
   - HINDZINC
 
+output_dir: "output"
+
 date_range:
   start: "2026-02-16"
   end: "2026-02-20"
+
+news:
+  lookback_window_hours: 72
