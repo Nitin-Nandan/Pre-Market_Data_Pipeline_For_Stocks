@@ -1,14 +1,27 @@
-# Folder containing PRD & TSD
+# Source documents (not for repo)
 PRD_TSD/
 
-# API Keys
+# Environment & secrets
 .env
 
-# Python Caches
+# Python caches
 __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.egg-info/
+dist/
+build/
 
-# Temp Testing Data
+# IDE
+.vscode/
+.idea/
+
+# Generated pipeline output — do NOT commit
+# (CSV, debug JSONs, logs, SQLite cache, stock aliases are run-specific)
+output/
+
+# Temp / scratch
 temp_tests/
+scripts/_*.txt
+scripts/_*.py
