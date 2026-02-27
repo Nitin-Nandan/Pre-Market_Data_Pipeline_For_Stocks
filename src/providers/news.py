@@ -224,15 +224,19 @@ class GoogleNewsProvider(NewsProvider):
 
         # Query A — company name, title filter ON
         q_a = f'"{search_name}" (NSE OR shares OR stock) when:3d'
-        result = self._try_query(ticker, long_name, date, q_a,
-                                  cache_sfx="name", title_filter=True)
+        result = self._try_query(
+            ticker, long_name, date, q_a,
+            cache_sfx="name", title_filter=True,
+        )
         if result:
             return result
 
         # Query B — ticker symbol, title filter OFF
         q_b = f'"{ticker}" NSE when:3d'
-        return self._try_query(ticker, long_name, date, q_b,
-                                cache_sfx="ticker", title_filter=False)
+        return self._try_query(
+            ticker, long_name, date, q_b,
+            cache_sfx="ticker", title_filter=False,
+        )
 
     def _try_query(
         self,

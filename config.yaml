@@ -1,7 +1,7 @@
 stocks:
-  - PFOCUS
-  - BANKINDIA
-  - HINDZINC
+  - RELIANCE
+  - INFY
+  - TATAMOTORS
 
 output_dir: "output"
 
