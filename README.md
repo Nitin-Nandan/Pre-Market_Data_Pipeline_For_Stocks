@@ -83,7 +83,17 @@ pip install -r requirements.txt
 
 > Do not use `conda activate` inside scripts or automated runners — activate manually before running any command.
 
-### 2. Configure API keys
+### 2. Run the environment setup check
+
+After installing requirements, run the setup helper once:
+
+```bash
+python setup_env.py
+```
+
+This script automatically detects and removes the broken `yfinance-cache` package (see Troubleshooting below) and verifies all imports resolve correctly before you run the pipeline.
+
+### 3. Configure API keys
 
 Copy `.env.example` to `.env` and fill in your key:
 
@@ -93,7 +103,7 @@ NEWSDATA_API_KEY=your_key_here
 
 Get a free key at [newsdata.io](https://newsdata.io). The free tier provides 200 credits/day. The pipeline caches responses per stock per day so multiple runs on the same day consume only one credit per stock.
 
-### 3. Configure stocks and date range
+### 4. Configure stocks and date range
 
 Edit `config.yaml`:
 
@@ -204,6 +214,30 @@ python scripts/dump_news_debug.py
 # End-to-end fetch_headline verification with structured log output
 python scripts/verify_phase4.py
 ```
+
+---
+
+## Troubleshooting
+
+### `FileNotFoundError: yfinance_cache/VERSION` on startup
+
+```
+FileNotFoundError: [Errno 2] No such file or directory: '.../yfinance_cache/VERSION'
+```
+
+**Root cause:** The `yfinance-cache 0.7.14` PyPI distribution ships without its own `VERSION` file on Windows. Python raises `FileNotFoundError` (not `ImportError`) when the package's `__init__.py` tries to open it, which crashes the entire import chain — even though `yfinance-cache` is listed as **optional** in this project.
+
+**Why `--force-reinstall` doesn't help:** The broken archive on PyPI is what gets downloaded every time. Reinstalling just unpacks the same incomplete package.
+
+**Fix — uninstall it (the pipeline does not need it):**
+
+```bash
+pip uninstall yfinance-cache -y
+```
+
+The pipeline falls back to plain `yfinance` automatically. All functionality is preserved.
+
+**Automatic fix:** Running `python setup_env.py` (see Setup section) detects and removes this package for you.
 
 ---
 
